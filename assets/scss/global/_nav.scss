@@ -101,6 +101,14 @@
       background: $white;
     }
 
+    .logo-wrapper {
+      svg {
+        path {
+          fill: $primary-color;
+        }
+      }
+    }
+
     @include breakpoint(large) {
       top: 70px;
     }
