@@ -1,0 +1,58 @@
+.value-prop {
+  background-color: $light-gray;
+  padding-top: rem-calc(16);
+  padding-bottom: rem-calc(76);
+  margin-top: 400px;
+  position: relative;
+
+  &__heading {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: #010A20;
+
+    @include breakpoint(medium) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__subtitle {
+    color: #142E71;
+  }
+
+  &__card {
+    background: $white;
+    border-radius: 24px;
+    padding: rem-calc(48) rem-calc(16) !important;
+
+    &-heading {
+      padding-bottom: rem-calc(32);
+      font-size: rem-calc(24);
+    }
+
+    a {
+      text-decoration: underline;
+
+      &:not(:hover) {
+        color: #142E71;
+      }
+    }
+  }
+
+  .waves-container {
+    min-width: 100vw;
+    width: 2000px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+
+    .waves {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%) scaleX(-1);
+    }
+  }
+}

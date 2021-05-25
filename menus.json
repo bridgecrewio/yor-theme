@@ -1,0 +1,25 @@
+{
+  "utility": [
+    {
+      "label": "About Bridgecrew by Prisma Cloud",
+      "url": "https://bridgecrew.io",
+      "target": "_blank",
+      "submenu": false
+    }
+  ],
+  "main": [
+    {
+      "label": "Overview",
+      "url": "https://www.checkov.io",
+      "target": "_self",
+      "submenu": false
+    },
+    {
+      "label": "Docs",
+      "url": "https://www.checkov.io/docs/",
+      "target": "_self",
+      "submenu": false
+    }
+  ]
+}
+

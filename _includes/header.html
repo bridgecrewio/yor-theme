@@ -1,0 +1,87 @@
+<header class="header">
+    <div class="header-bridgecrew show-for-large">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x align-middle">
+                <aside class="cell small-auto shrink">
+                    <a href="https://www.bridgecrew.io?utm_source=checkovio&utm_medium=organic_oss&utm_campaign=checkov" target="_blank" class="logo-wrapper">
+                        <img style="height:26px;width:auto;" alt="Bridgecrew.io" src="{{site.baseurl}}/assets/img/bridgecrew_logo_utility.png">
+                    </a>
+                </aside>
+                <nav class="cell small-auto medium-10 shrink utility-nav">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <li>
+                            <a href="https://bridgecrew.io/?utm_source=checkovio&utm_medium=organic_oss&utm_campaign=checkov">About Bridgecrew by Prisma Cloud</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-nav" id="sticky-nav">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x grid-padding-y align-middle">
+                <div class="cell small-auto shrink">
+                    <a href="/" target="_blank" class="logo-wrapper">
+                        {% include yor.svg %}
+                        <span class="show-for-sr">Yor home</span>
+                    </a>
+                </div>
+                <div class="cell large-auto show-for-large shrink main-nav align-middle">
+                    <ul class="dropdown menu" data-dropdown-menu>
+                        <li>
+                            <a href="/1.Welcome/welcome.html#overview">Docs</a>
+                            <ul class="menu">
+                                <li>
+                                    <a href="/2.Using%20Yor/installation.html">Quick start</a>
+                                </li>
+                                <li>
+                                    <a href="/1.Welcome/welcome.html#overview">Overview</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="github-stars">
+                            <a href="https://www.github.com/bridgecrewio/checkov" target="_blank">
+                                <svg class="icon">
+                                    <use xlink:href="#github-logo"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="button-container">
+                            <a href="/2.Using%20Yor/installation.html" class="button primary rounded">Download</a>
+                        </li>
+                        <li class="button-container">
+                            <a href="https://bridgecrew.io?utm_source=checkovio&utm_medium=organic_oss&utm_campaign=checkov" target="_blank" class="button gray rounded">Try Bridgecrew</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="cell small-auto hide-for-large shrink hamburger align-middle">
+                    {% include hamburger.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-nav hide-for-large">
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x grid-padding-y align-middle">
+                <div class="cell small-auto align-middle">
+                    <ul class="accordion-menu vertical menu" data-accordion-menu>
+                        <li>
+                            <a href="/1.Welcome/welcome.html#overview">Docs</a>
+                            <ul class="menu">
+                                <li>
+                                    <a href="/2.Using%20Yor/installation.html">Quick start</a>
+                                </li>
+                                <li>
+                                    <a href="/1.Welcome/welcome.html#overview">Overview</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

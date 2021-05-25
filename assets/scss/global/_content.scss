@@ -1,0 +1,33 @@
+.main-content {
+  overflow: hidden;
+}
+
+.content {
+  hr {
+    margin-top: 0;
+  }
+
+  @include breakpoint(medium) {
+    margin-left: 2rem;
+  }
+}
+
+body:not(.home) {
+  .main-content {
+    margin-top: 100px;
+  }
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #142E71;
+}
+
+.relative {
+  position: relative;
+}
