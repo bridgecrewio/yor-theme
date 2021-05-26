@@ -10,13 +10,13 @@
   "main": [
     {
       "label": "Overview",
-      "url": "https://www.checkov.io",
+      "url": "https://www.yor.io",
       "target": "_self",
       "submenu": false
     },
     {
       "label": "Docs",
-      "url": "https://www.checkov.io/docs/",
+      "url": "https://www.yor.io/docs/",
       "target": "_self",
       "submenu": false
     }
