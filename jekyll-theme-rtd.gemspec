@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "checkov-theme-2"
+  spec.name          = "yor-theme"
   spec.version       = "0.1.0"
   spec.authors       = ["bridgecrew"]
   spec.email         = ["barak@bridgecrew.io"]
 
   spec.summary       = "Port of the Read the Docs theme to Jekyll to use with GitHub Pages."
-  spec.homepage      = "https://github.com/bridgecrewio/checkov-theme-2/"
+  spec.homepage      = "https://github.com/bridgecrewio/yor-theme/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_layouts|_includes|_sass|LICENSE|README)!i) }
