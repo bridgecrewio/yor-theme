@@ -55,7 +55,7 @@ resources which are routinely change.
 ### Supported Git tags
 The following tags are supported in Yor:
 ```
-git_org = "bridgecrewio"
+git_org = "paloaltonetworks"
 git_repo = "terragoat"
 git_file = "README.md" # This is the path from the repo root dir.
 git_commit = "47accf06f13b503f3bab06fed7860e72f7523cac" # This is the latest commit for this resource.
